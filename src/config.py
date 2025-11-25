@@ -21,7 +21,6 @@ def get_gemini_api_key() -> str:
     """
 
     api_key = ""
-
     # 1) Try Streamlit secrets (Cloud)
     try:
         import streamlit as st

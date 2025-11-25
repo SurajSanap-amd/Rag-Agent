@@ -128,27 +128,6 @@ elif not uploaded_files:
     st.info("Upload at least one file to begin.")
 
 
-# ---------- Description ----------
-st.write(
-    """
-Welcome! This multi-page app demonstrates:
-
-- **AI Agent** using **Gemini** (function calling)
-- **RAG (Retrieval-Augmented Generation)** from your uploaded documents
-- **Tools**:
-    - `search_documents` (RAG search)
-    - `calculate_expression` (calculator)
-    - `manage_todos` (todo manager)
-- **Vector Store**: simple custom vector DB using **SQLite + embeddings**
-
-📌 Use the pages from the sidebar:
-1. **Upload Documents** → store in Vector DB  
-2. **Chat with Agent** → ask questions / use tools  
-3. **Tools Only Demo** → directly test tools
-"""
-)
-
-st.info("💡 Tip: First go to **Upload Documents** and add some PDFs or text files.")
 
 
 # ---------- Footer ----------
