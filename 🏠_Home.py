@@ -62,7 +62,7 @@ else:
 # ---------- Description ----------
 st.write(
     """
-Welcome! This multi-page app demonstrates:
+Welcome! This Ai-Agent app demonstrates:
 
 - **AI Agent** using **Gemini** (function calling)
 - **RAG (Retrieval-Augmented Generation)** from your uploaded documents
