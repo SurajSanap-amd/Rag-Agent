@@ -6,6 +6,12 @@ It allows you to **upload PDFs/TXT files**, store them in a **Vector Database**,
 📌 **Tech Stack**:
 `Python` · `Streamlit` · `SQLite` · `Gemini API` · `RAG` · `Embeddings` · `Function Calling`
 
+
+<img width="1673" height="914" alt="image" src="https://github.com/user-attachments/assets/32561c04-2411-47a5-9484-a544d00d8d9f" />
+<img width="1675" height="926" alt="image" src="https://github.com/user-attachments/assets/e15e8b02-eb5b-4f9f-a432-594b142a2bc5" />
+<img width="1667" height="669" alt="image" src="https://github.com/user-attachments/assets/24373d1e-b66f-4f78-b464-d214260c6811" />
+<img width="1664" height="908" alt="image" src="https://github.com/user-attachments/assets/fbed957e-e0a6-47ed-b418-3a366a1a93c2" />
+
 ---
 
 ## 🚀 Features
@@ -148,8 +154,3 @@ streamlit run Home.py
 
 
 
-
-Just reply:
-➡️ **Yes, add badges**
-➡️ **Yes, add screenshots**
-or **Both**! 🚀
