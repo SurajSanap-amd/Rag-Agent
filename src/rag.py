@@ -23,6 +23,7 @@ def _extract_text_from_txt(path: str) -> str:
 def ingest_file(file_data, filename: str) -> int:
     """Save file, extract text, chunk, embed+store. Returns chunks count."""
     # Save file
+    os.makedirs(UPLOAD_DIR, exist_ok=True)
     save_path = os.path.join(UPLOAD_DIR, filename)
     with open(save_path, "wb") as f:
         f.write(file_data)
@@ -35,7 +36,8 @@ def ingest_file(file_data, filename: str) -> int:
         text = _extract_text_from_txt(save_path)
 
     chunks = simple_chunk_text(text)
-    add_texts(chunks)
+    # 🔹 Tag each chunk with its originating file_name
+    add_texts(chunks, file_name=filename)
     return len(chunks)
 
 

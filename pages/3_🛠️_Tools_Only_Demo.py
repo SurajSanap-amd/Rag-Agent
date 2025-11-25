@@ -39,3 +39,36 @@ with tab3:
     if st.button("Run Todo Action"):
         res = tool_manage_todos(action=action, item=item or None)
         st.write(res)
+
+
+# ---------- Footer ----------
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            text-align: center;
+            padding: 10px 0;
+            color: white;
+            font-size: 14px;
+            font-family: 'Segoe UI', sans-serif;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .footer-text {
+            background: linear-gradient(90deg, #00eaff, #6e00ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: 600;
+        }
+    </style>
+
+    <div class="footer">
+        <span class="footer-text">🚀 Built by Suraj Sanap</span>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)

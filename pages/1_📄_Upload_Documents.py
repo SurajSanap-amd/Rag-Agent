@@ -126,3 +126,59 @@ if ingest_button:
 
 elif not uploaded_files:
     st.info("Upload at least one file to begin.")
+
+
+# ---------- Description ----------
+st.write(
+    """
+Welcome! This multi-page app demonstrates:
+
+- **AI Agent** using **Gemini** (function calling)
+- **RAG (Retrieval-Augmented Generation)** from your uploaded documents
+- **Tools**:
+    - `search_documents` (RAG search)
+    - `calculate_expression` (calculator)
+    - `manage_todos` (todo manager)
+- **Vector Store**: simple custom vector DB using **SQLite + embeddings**
+
+📌 Use the pages from the sidebar:
+1. **Upload Documents** → store in Vector DB  
+2. **Chat with Agent** → ask questions / use tools  
+3. **Tools Only Demo** → directly test tools
+"""
+)
+
+st.info("💡 Tip: First go to **Upload Documents** and add some PDFs or text files.")
+
+
+# ---------- Footer ----------
+st.markdown(
+    """
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.65);
+            text-align: center;
+            padding: 10px 0;
+            color: white;
+            font-size: 14px;
+            font-family: 'Segoe UI', sans-serif;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .footer-text {
+            background: linear-gradient(90deg, #00eaff, #6e00ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-weight: 600;
+        }
+    </style>
+
+    <div class="footer">
+        <span class="footer-text">🚀 Built by Suraj Sanap</span>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
