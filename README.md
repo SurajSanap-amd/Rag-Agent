@@ -1,8 +1,3 @@
-Here’s a **clean, professional & complete README.md** for your project (Gemini RAG + Tools + Streamlit).
-You can copy and paste directly to your GitHub repository.
-
----
-
 # 🤖 AI Agent with RAG + Tools (Gemini + Streamlit)
 
 A smart AI Assistant built using **Google Gemini**, with **Retrieval Augmented Generation (RAG)** and **function calling tools**.
@@ -150,14 +145,9 @@ streamlit run Home.py
 **🚀 Suraj Sanap**
 
 > Passionate about AI, Automation & Smart Apps
-> *(Add your LinkedIn / GitHub link here)*
 
----
 
-Would you like me to:
 
-📌 **Add badges (stars, forks, license)**
-🎨 **Add screenshots & GIF demo**
 
 Just reply:
 ➡️ **Yes, add badges**
