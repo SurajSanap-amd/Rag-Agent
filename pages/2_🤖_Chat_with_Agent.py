@@ -84,7 +84,7 @@ st.write("")
 
 # ---------- Chat container card ----------
 with st.container():
-    st.markdown('<div class="chat-card">', unsafe_allow_html=True)
+    
 
     # Initialize chat history
     if "chat_history" not in st.session_state:
